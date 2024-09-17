@@ -42,4 +42,4 @@ def plot_box_plot(df: pd.DataFrame, column: str, y_label: str = '', outliers: bo
 
         plt.yticks(ticks)
 
-    sns.boxplot(y=column, data=df)
+    sns.boxplot(y=column, data=df, linewidth=2, color='darkblue')
